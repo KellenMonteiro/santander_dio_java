@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class ContaBanco {
+public class ContaTerminal {
     private int numero;
     private String agencia;
     private String nomeCliente;
     private double saldo;
 
     // Construtor
-    public ContaBanco(int numero, String agencia, String nomeCliente, double saldo) {
+    public ContaTerminal(int numero, String agencia, String nomeCliente, double saldo) {
         this.numero = numero;
         this.agencia = agencia;
         this.nomeCliente = nomeCliente;
@@ -31,7 +31,7 @@ public class ContaBanco {
         double saldo = scanner.nextDouble();
 
         // Criando uma instância da conta
-        ContaBanco conta = new ContaBanco(numeroConta, agencia, nomeCliente, saldo);
+        ContaTerminal contaTerminal = new ContaTerminal(numeroConta, agencia, nomeCliente, saldo);
 
         // Exibindo a mensagem de saudação
         System.out.println("\nOlá " + nomeCliente + ", obrigado por criar uma conta em nosso banco,");
