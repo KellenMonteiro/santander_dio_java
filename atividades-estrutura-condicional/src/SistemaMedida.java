@@ -4,20 +4,20 @@ public class SistemaMedida {
 
         switch (sigla) {
             case "P": {
-                System.out.println("PEQUENO");
+                System.out.println("Pequeno");
                 break;
             }
             case "M": {
-                System.out.println("MEDIO");
+                System.out.println("Médio");
                 break;
             }
 
             case "G": {
-                System.out.println("GRANDE");
+                System.out.println("Grande");
                 break;
             }
             default:
-                System.out.println("INDEFINIDO");
+                System.out.println("Não foi definido");
         }
 
     }
