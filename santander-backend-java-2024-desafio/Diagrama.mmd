@@ -1,0 +1,31 @@
+classDiagram
+
+class User { 
+    -String name 
+    - int date
+    - int phone
+    - char email
+    - Combo[] combo
+    - Product[] product
+    - News[] news  
+}
+
+class Combo {
+    -String description
+    -Float value
+}
+
+class Product {
+    -String description
+    -Float value
+}
+
+class News {
+    -String icon
+    -String description
+}
+
+
+User--> Combo
+User --> Product
+User --> News
